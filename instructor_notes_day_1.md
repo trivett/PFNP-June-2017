@@ -16,7 +16,7 @@ Goals for today:
 
 * Learn about the programming landscape
 * Learn basics that every programming language shares without learning code first
-* Get to know the Chrome Dev Tools
+* Get to know the Chrome Developer Tools
 * Learn basic HTML
 * Learn basic CSS
 * Create a resume and portfolio site

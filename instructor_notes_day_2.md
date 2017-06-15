@@ -502,6 +502,9 @@ myConcatenate('I', 'am', 'iron man'); // 'I am iron man'
 
 Make a function that takes input and returns your "Star Wars name"
 
+10 minutes in present String Slice as a hint
+
+
 step one:
 
 ```javascript
