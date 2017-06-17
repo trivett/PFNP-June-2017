@@ -12,6 +12,10 @@ Download Github Desktop
 
 Get  Github account
 
+-----------------------------------
+
+
+
 Goals for today: 
 
 * Learn about the programming landscape
@@ -233,7 +237,7 @@ Go to Airbnb.com and look at the following
 
 
 
-Go to opcode.com
+Go to popcode.com
 
 Before your browser even knows that it's supposed to roll with HTML, you have to tell it. 
 
@@ -389,9 +393,18 @@ Comments and why they are so handy for programmers
 <p> wow look at that line
   
 </p>
- <div></div>
+ <div>
+	<!-- a div is just a box. that's it. 
+	it displays 'block' meaning by default it just takes up the whole horizontal space.
+-->
+   
+</div>
 
- <span></span>
+ <span>
+	<!-- a span is just a box, but it displays inline rather than block, meaning that it doesn't break up a line of text or a paragraph.  -->
+</span>
+
+<!-- spans and divs are good for grouping pieces of the ui together so we can target them for styling or even interaction. -->
 ```
 
 relative links
@@ -419,11 +432,45 @@ Create a new file in there called `resume.html`
 
 It's going to be all Times New Roman and stuff but it's important to get the practice into your very fingers.
 
+Try and use all of the following tags once: 
+
+<html>
+
+<head>
+
+<body>
+
+<h1>
+
+<h2>
+
+<ul>
+
+<ol>
+
+<li>
+
+<p>
+
+<img>
+
+<a>
+
+<div>
+
+<span>
+
+
+
+
+
 Use your actual resume or generate nonsense text at Hipster Ipsum
 
 https://hipsum.co/
 
 After you are in good shape, we'll use some CSS to give these Crappy Times New Roman things style.
+
+now do doc + tab in VS Code to wow them
 
 
 
@@ -450,6 +497,29 @@ CSS Zen Garden
 ```
 ### CSS selectors and properties
 ```
+
+
+
+```css
+/* this is a comment in css */
+/* not the same as html or javascript, sorry. I wish it was consistent */
+
+/* this is all there is to it: */
+
+selector {
+  property: value;
+}
+
+/* that is pretty much all there is to css syntax. Part of what makes it great is how accessible it is. It gets more complicated for sure, but from here on, it's just a matter of getting used to things and trying stuff until it looks good.
+
+This would be a good time to show the family guy thing.
+*/
+
+```
+
+
+
+
 
 selectors
 
@@ -507,7 +577,7 @@ h1, h2, h3 {
 
 p, li {
   font-family: 'Slabo 27px', serif;
-  color: ##3c250a;
+  color: #3c250a;
 }
 
 
