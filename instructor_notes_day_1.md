@@ -512,7 +512,7 @@ selector {
 
 /* that is pretty much all there is to css syntax. Part of what makes it great is how accessible it is. It gets more complicated for sure, but from here on, it's just a matter of getting used to things and trying stuff until it looks good.
 
-This would be a good time to show the family guy thing.
+This would be a good time to show the family guy thing.	
 */
 
 ```
