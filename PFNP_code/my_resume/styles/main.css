@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|PT+Serif');
+
+body {
+  font-family: 'PT Serif', serif;
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Hind', sans-serif;
+}
+
+.experience {
+  display: inline-block;
+  width: 400px;
+}
+
+.skills {
+  display: inline-block;
+  width: 400px;
+}
+.past-job {
+  font-size: 10px;
+}
+
+#job {
+  text-align: center;
+}
+
+.very-much {
+  color: blue;
+}
