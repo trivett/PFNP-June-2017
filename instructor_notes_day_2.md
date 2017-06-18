@@ -6,6 +6,7 @@ On the board:
 
 Today's _very ambitious_ goals:
 
+* Review HTML, CSS and Git
 * Learn the very basics of programming with JavaScript
 * Use jQuery to make code that a user can interact with
 * Make an image slider
@@ -22,9 +23,38 @@ Today's _very ambitious_ goals:
 
 
 
+# Warm up
+
+I want to give you a chance to reinforce your knowledge and explore CSS, HTML, and Git. Let's break things, and fix them.
+
+Let's spruce up your portfolio page. After each step that you do, make a commit in Github Desktop, and push to your github portfolio.
+
+1. change the links to be your real social media profiles.
+2. Copy your Resume HTML into your github repo and link to it with a _relative link_ like this:
+
+```html
+<a href="resume.html">My Resume</a>
+```
+
+This lets you make links within your website.
+
+3. Drag a real selfie into the repository and use the same technique above to make the src attribute of the header photo reference your actual photo. 
+
+4. Explore HTML and CSS by thinking of changes that you want to make to the styling. Some ideas: 
+
+   * Make your headshot round instead of rectangular. 
+
+   * Change the background photo to something tasteful. Maybe a city skyline or something
+
+   * Change the three columns to two and see if you can arrange them nicely.
+
+   * Add new content and make it look how you want it to look.
+
+     ​
+
 ----------
 
-
+10:45
 
 ### Let's learn JavaScript and jQuery!
 
@@ -59,7 +89,7 @@ There is an endless and endlessly expanding universe of frameworks for JavaScrip
 
 
 
-# 10:15
+# 11:00
 
 
 
@@ -115,7 +145,7 @@ JavaScript gives is a chance to do stuff without a full request-response process
 
 
 
-# 10:45
+# 11:30
 
 
 
@@ -184,8 +214,6 @@ Now take the element called h1 (see how this is just like css?) and make its htm
 
 Now to be clear, you don't *need* jQuery to do everything that jQuery helps you do. It just makes your life a lot easier, and there's a huge universe of front-end tools to make common UI elements like image sliders easy. 
 
-
-
 Check out the HTML in the slick demo folder.
 
 Explain Semantic UI and walk through the HTML. 
@@ -198,17 +226,9 @@ This bears repeating. Look for answers and open source tools, read the manual.
 
 Go to Slick `https://kenwheeler.github.io/slick/`
 
-
-
 Read the getting started manual.
 
-
-
 RTFM! 
-
-
-
-
 
 throw this after semantic ui css
 
@@ -218,8 +238,6 @@ and after jquery at the bottom
 ```
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 ```
-
-
 
 
 
@@ -236,7 +254,7 @@ $('#slideshow').slick({
 
 
 
-# 12:00
+# 12:30
 
 
 
@@ -344,7 +362,13 @@ The null variable is different from the `undefined` type, but only subtly so.
 
 
 
-# 12:30
+# 13:00
+
+Lunch
+
+
+
+# 13:30
 
 
 
@@ -376,7 +400,7 @@ console.log(celsius)
 
 
 
-# 13:30
+# 13:45
 
 
 
@@ -390,7 +414,7 @@ Concatenation & interpolation
 
 `.length`
 
-
+Template literals with `
 
 ## Booleans
 
@@ -407,6 +431,10 @@ console.log( typeof myBooleanValue );
 
 
 Expressions often evaluate to booleans
+
+
+
+# 14:00
 
 
 
@@ -455,12 +483,11 @@ function greet(name){
 
 
 //in the function, its like a separate environment. this is called scope.
-
 ```
 
 
 
-# 14:15
+# 14:30
 
 
 
@@ -472,7 +499,7 @@ function greet(name){
 
 
 
-# 14:30
+# 15:15
 
 
 
@@ -482,19 +509,66 @@ function greet(name){
 
 * create a function for temperature conversion that lets you convert any temperature input.	
 
-```javascript
 
-function myConcatenate( firstStr, secondStr, thirdStr ) {
-    let answer = firstStr + " " + secondStr + " " + thirdStr;
-    console.log(answer);
-}
 
-myConcatenate('I', 'am', 'iron man'); // 'I am iron man'
-```
+# 15:45
 
 
 
-# 14:45
+# Expressions, Conditionals and Operators
+
+What happens when we abuse that temperature conversion function and input "lizard"?
+
+
+
+JavaScript Statements use a set of operators
+
+
+
+- `===` `3 == '3' => true` `3 === "3" =>false`
+- `!==` and `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+- `&&`
+- `||`
+- `!`
+- if
+- else if
+- else
+
+
+Let's change the temperature conversion function together so it returns a friendly error if you don't put in a number.
+
+
+
+# 16:15
+
+
+
+
+## Bouncer lab
+
+When reviewing, show one with an if/else, then do one with just returning the expression, then with two arguments
+
+
+
+-----
+
+
+
+
+
+
+
+
+
+
+
+# 16:30
+
+
 
 
 
@@ -503,7 +577,6 @@ myConcatenate('I', 'am', 'iron man'); // 'I am iron man'
 Make a function that takes input and returns your "Star Wars name"
 
 10 minutes in present String Slice as a hint
-
 
 step one:
 
@@ -520,12 +593,11 @@ function myStarWarsName(firstName, lastName, street, city) {
 
   return `${swFirstName} ${swLastName}`;
 }
-
 ```
 
 
 
-# 15:05
+# Let's see your results
 
 Get student results, then dry it up a little like this
 
@@ -547,8 +619,6 @@ function myStarWarsName(firstName, lastName, street, city) {
   let swLastName = `${firstThreeLettersDowncased(street)}${firstThreeLettersDowncased(city)}`;
   return `${capitalizeFirstLetter(swFirstName)} ${capitalizeFirstLetter(swLastName)}`;
 }
-
-
 ```
 
 
@@ -567,11 +637,15 @@ try both submit and keyup
 
 
 
-# 15:25
 
 
 
-# Collections	
+
+# 17:30
+
+
+
+# Collections
 
 ------
 
@@ -591,28 +665,17 @@ Some Array methods:
 4. unshift
 5. forEach
 
-
-
-# 15:30
+# 16:45
 
 
 
 # Objects
 
+
+
+OPTIONAL
+
 ```javascript
-// just primitives
-const name = "Vincent;
-let hasHadAllHisShots = true;
-let likesFootball = false;
-let age = 32;
-let friends = ["Kejal", "Ben", "Phillip", "Paola"] 
-let introduceSelf = function(){
-  console.log("Hi. I am " + name +".")
-}
-
-
-//imagine doing this for more than one person!
-
 // objects are basically key-value pairs
 // the values are primitives.
 // Objects are the bedrock of most web APIs that deliver data in the form of JSON (Java Script Object Notation)
@@ -633,48 +696,6 @@ let vincent = {
 console.log(vincent.name);
 console.log(vincent.friends[0])
 ```
-
-
-
-# 15:45
-
-
-
-# Conditionals and Operators
-
-JavaScript Statements use a set of operators
-
-
-
-- `===` `3 == '3' => true` `3 === "3" =>false`
-- `!==` and `!=`
-- `>`
-- `<`
-- `>=`
-- `<=`
-- `&&`
-- `||`
-- `!`
-
-
-
-
-# 16:00
-
-
-
-
-## Bouncer lab
-
-show one with an if/else, then do one with just returning the expression, then with two arguments
-
-
-
------
-
-
-
-# 16:30
 
 
 
@@ -700,7 +721,7 @@ Look at the documentation on omdbapi.com
 
 
 
-http://www.omdbapi.com/?t=zootopia
+https://www.omdbapi.com/?t=rocky&apikey=c12529c3&plot=short&r=json
 
 
 
@@ -767,55 +788,6 @@ function renderError() {
 
 
 
-
-
-
-finish: 
-
-```javascript
-$('#movie-search-form').keyup(function(e) {
-  e.preventDefault();
-  $('.result').hide();
-  var userSearchQuery = this.query.value;
-  if (userSearchQuery.length > 2){
-    searchOMDB(userSearchQuery);
-  }
-});
-
-function searchOMDB(query) {
-  $.getJSON('https://www.omdbapi.com/', {
-    t: query,
-    apikey: "c12529c3",
-    plot: "short",
-    r: 'json'
-  }, function(omdbData) {
-    if (omdbData.Response === "True"){
-      
-      renderMovie(omdbData)
-      console.log(omdbData);
-    } else {
-      renderError();
-      console.log(omdbData);
-    }
-  });
-}
-
-function renderMovie(data) {
-  $('.result').show();
-  $('#title').html(data.Title);
-  $('#year').html(data.Year);
-  $('#actors').html(data.Actors);
-  $('#poster').attr("src", data.Poster);
-  $('.error').hide();
-
-
-}
-
-function renderError() {
-  $('.error').show();
-}
-
-```
 
 
 
