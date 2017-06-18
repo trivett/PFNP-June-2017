@@ -22,10 +22,30 @@ How do you capitalize the first letter of a string?
 
 
 ******************/
+function firstThreeDowncased (str){
+  return str.slice(0,3).toLowerCase();
+}
+
+function capitalizeFirstLetter (str){
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+function myStarWarsName(firstName, lastName, street, city){
+  let swFirstName = `${firstThreeDowncased(firstName)}${firstThreeDowncased(lastName)}`
+  let swLastName = `${firstThreeDowncased(street)}${firstThreeDowncased(city)}`
+
+  return `${capitalizeFirstLetter(swFirstName)} ${capitalizeFirstLetter(swLastName)}`
+}
+
+myStarWarsName("Vincent", "Trivett", "DuPont", "Brooklyn");
 
 
-
-
-
-// myStarWarsName("Vincent", "Trivett", "DuPont", "Brooklyn") => "Vintri Dupbro"
+  // let swFirstName = `${ firstName.slice(0,3)}${ lastName.slice(0,3)}`;
+  // let swLastName = `${ street.slice(0,3)}${city.slice(0,3)}`;
+  // swFirstName = swFirstName.toLowerCase();
+  // swLastName = swLastName.toLowerCase();
+  // swFirstName = swFirstName.charAt(0) + swFirstName.slice(1);
+  // swLastName = swLastName.charAt(0) + swLastName.slice(1);
+  // return `${swFirstName} ${swLastName}`
+// }
 

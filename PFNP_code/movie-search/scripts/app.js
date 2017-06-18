@@ -25,12 +25,14 @@ function searchOMDB(query) {
   });
 }
 
-function renderMovie(data) {
+function renderMovie(omdbData) {
+  console.log(omdbData);
   $('.result').show();
-  $('#title').html(data.Title);
-  $('#year').html(data.Year);
-  $('#actors').html(data.Actors);
-  $('#poster').attr("src", data.Poster);
+  $('#title').html(omdbData.Title);
+  $('#year').html(omdbData.Year);
+  $('#actors').html(omdbData.Actors);
+  $("#plot").html(omdbData.Plot);
+  $('#poster').attr("src", omdbData.Poster);
   $('.error').hide();
 
 
